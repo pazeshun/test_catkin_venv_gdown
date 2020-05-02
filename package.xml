@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>test_catkin_venv_gdown</name>
+  <version>0.0.0</version>
+  <description>Force catkin_virtualenv to install gdown.</description>
+
+  <maintainer email="pazeshun3684@gmail.com">Shun Hasegawa</maintainer>
+  <license>BSD</license>
+  <author email="pazeshun3684@gmail.com">Shun Hasegawa</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>catkin_virtualenv</build_depend>
+
+  <export>
+    <pip_requirements>requirements.txt</pip_requirements>
+  </export>
+
+</package>
